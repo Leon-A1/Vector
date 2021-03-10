@@ -3,15 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 150px;
   background-color: var(--color-white);
-  margin-top: 50px;
-  min-width: 280px;
+  min-width: 310px;
 }
 
 .text-animation-container h1 {
   font-weight: 300;
-  /* font-family: "Teko", sans-serif; */
+  font-family: var(--main-font-family);
   color: var(--color-main);
   filter: drop-shadow(1px 1px 1px black);
   font-size: 2.25rem;
@@ -20,25 +18,26 @@
   transition: 2000ms;
 }
 .text-animation-container h3 {
-  font-weight: 800;
-  font-family: var(--font-family);
+  font-weight: 300;
+  font-family: var(--main-font-family);
   color: var(--color-secondary);
-  opacity: 0.8;
-  filter: drop-shadow(1px 1px 10px black);
+  filter: drop-shadow(1px 1px 5px black);
   font-size: 1.5rem;
   z-index: 1000;
 }
 .text-animation-container span .company-name {
-  font-weight: 300;
+  font-weight: 600;
   font-size: 1.75rem;
   color: var(--color-main);
+  filter: drop-shadow(1px 1px 3px black);
 }
 
 /* Cursor */
 .txt-type > .txt {
   border-right: 2px solid black;
   color: var(--color-main);
-  font-family: var(--font-family);
+  font-family: var(--secondary-font-family);
+  filter: drop-shadow(1px 1px 5px black);
 }
 
 @media (min-width: 600px) {
