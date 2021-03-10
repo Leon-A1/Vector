@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b3a52a88.chunk.css",
+    "main.js": "/static/js/main.fc127925.chunk.js",
+    "main.js.map": "/static/js/main.fc127925.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1bc60391.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1bc60391.js.map",
+    "static/js/2.cba2aad5.chunk.js": "/static/js/2.cba2aad5.chunk.js",
+    "static/js/2.cba2aad5.chunk.js.map": "/static/js/2.cba2aad5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.02f2653b8502e3eee18953bdc8dda7c5.js": "/precache-manifest.02f2653b8502e3eee18953bdc8dda7c5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b3a52a88.chunk.css.map": "/static/css/main.b3a52a88.chunk.css.map",
+    "static/js/2.cba2aad5.chunk.js.LICENSE.txt": "/static/js/2.cba2aad5.chunk.js.LICENSE.txt",
+    "static/media/BreakingBad.png": "/static/media/BreakingBad.8b14748d.png",
+    "static/media/LAtasks.png": "/static/media/LAtasks.0e1392f1.png",
+    "static/media/Monin.png": "/static/media/Monin.02556bc6.png",
+    "static/media/TriviaCardGame.png": "/static/media/TriviaCardGame.e362858c.png",
+    "static/media/gitHub.png": "/static/media/gitHub.7b65b2af.png",
+    "static/media/profile_picture.png": "/static/media/profile_picture.bad457be.png",
+    "static/media/whatsAppResume.png": "/static/media/whatsAppResume.1c54eaa8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1bc60391.js",
+    "static/js/2.cba2aad5.chunk.js",
+    "static/css/main.b3a52a88.chunk.css",
+    "static/js/main.fc127925.chunk.js"
+  ]
+}

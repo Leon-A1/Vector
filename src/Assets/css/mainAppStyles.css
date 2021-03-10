@@ -1,0 +1,40 @@
+/* COLORS */
+:root {
+  --color-black: rgb(241, 241, 241);
+  --color-white: #1e152a;
+  --color-main: #536dfe;
+  --color-secondary: #78e0dc;
+  --color-light-dark: rgb(122, 122, 122);
+  --color-dark: #66635b;
+  --color-text-color: #ffe2d1;
+  --font-family: "Poppins", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  color: var(--color-text-color);
+}
+
+body {
+  background-color: var(--color-white);
+}
+ul {
+  list-style: none;
+}
+
+.outer-main-div {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* margin-top: 75px; */
+}
+.main-tag {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
