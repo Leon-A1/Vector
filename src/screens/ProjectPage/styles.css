@@ -66,6 +66,7 @@
   font-size: 1.25rem;
   padding-top: 10px;
   color: var(--color-black);
+  font-family: Helvetica, sans-serif;
 }
 
 .project-screen-technologies-used {

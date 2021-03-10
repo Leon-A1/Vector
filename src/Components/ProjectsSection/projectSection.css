@@ -24,6 +24,7 @@
   text-align: center;
   margin: 25px;
   position: relative;
+  font-family: Helvetica, sans-serif;
 }
 .projects-heading::after {
   content: "";
@@ -115,6 +116,7 @@
   padding-right: 15px;
   max-height: 55px;
   overflow: hidden;
+  font-family: Helvetica, sans-serif;
 }
 
 .card-technologies-used {

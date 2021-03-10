@@ -1,6 +1,6 @@
 import React from "react";
 import "./desktop-navbar.css";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 export default function DesktopNavBar() {
   const expandNavbar = () => {
@@ -8,8 +8,7 @@ export default function DesktopNavBar() {
     document.querySelector("#main-navigation").style.transform =
       "translateX(0)";
     document.querySelector("#main-navigation").style.height = "100vh";
-    document.querySelector("#main-landing-div").style.transform =
-      "translateX(200%)";
+    document.querySelector("#app-wrapper").style.transform = "translateX(300%)";
     document.querySelector("#nav-open-btn").style.display = "none";
     document.querySelector("#root").style.overflow = "hidden";
     window.scrollTo(0, 0);
@@ -18,8 +17,7 @@ export default function DesktopNavBar() {
     console.log("hiding navbar");
     document.querySelector("#main-navigation").style.transform =
       "translateX(-100%)";
-    document.querySelector("#main-landing-div").style.transform =
-      "translateX(0%)";
+    document.querySelector("#app-wrapper").style.transform = "translateX(0%)";
     document.querySelector("#main-navigation").style.height = 0;
     document.querySelector("#nav-open-btn").style.display = "block";
   };
@@ -43,16 +41,24 @@ export default function DesktopNavBar() {
         </button>
         <ul>
           <li>
-            <Link to="/">About</Link>
+            <a onClick={hideNavbar} href="/">
+              Home
+            </a>
           </li>
           <li>
-            <Link to="/">Contact</Link>
+            <Link onClick={hideNavbar} to="/about">
+              About
+            </Link>
           </li>
           <li>
-            <Link to="/">Previous Works</Link>
+            <Link onClick={hideNavbar} to="/contact">
+              Contact
+            </Link>
           </li>
           <li>
-            <Link to="/">More</Link>
+            <Link onClick={hideNavbar} to="/works">
+              Portfolio
+            </Link>
           </li>
         </ul>
       </aside>

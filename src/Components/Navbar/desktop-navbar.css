@@ -55,6 +55,13 @@
 .main-landing-navigation aside ul li a {
   font-size: 3rem;
   color: var(--color-dark);
+  cursor: pointer;
+  transition: 600ms;
+}
+.main-landing-navigation aside ul li a:hover {
+  font-size: 3rem;
+  color: var(--color-main);
+  transition: 300ms;
 }
 #main-landing-div {
   transition: 1000ms;
