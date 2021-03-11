@@ -22,14 +22,14 @@
   font-size: 3rem;
   z-index: 1000;
   position: fixed;
-  top: 30px;
-  right: 30px;
+  top: 50px;
+  right: 50px;
   filter: drop-shadow(1px 1px 1px black);
   cursor: pointer;
   transition: 300ms;
 }
 #close-modal-button:hover {
-  color: var(--color-white);
+  color: var(--color-secondary);
   transition: 300ms;
 }
 .project-screen-card-container {
@@ -84,7 +84,7 @@
 }
 .project-screen-technologies-used i:hover {
   transition: 500ms;
-  color: var(--color-main);
+  color: var(--color-secondary);
 }
 .project-screen-social-buttons {
   width: 100%;

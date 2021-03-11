@@ -32,7 +32,7 @@ const Contact = ({ hideSpinner }) => {
 
           <span>Comment/Request/Question</span>
           <br></br>
-          <textarea cols="100%" rows="20"></textarea>
+          <textarea rows="10"></textarea>
           <button>Send</button>
         </form>
       </section>

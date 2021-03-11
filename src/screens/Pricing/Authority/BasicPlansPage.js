@@ -48,7 +48,7 @@ export default function WebDevOptions({ hideSpinner }) {
               <p>step-by-step consultation and support process</p>
               <p>custom design per client requirements</p>
               <p>home and inner page template sketch-3 adjustment rounds</p>
-              <p>home page sheader image</p>
+              <p>home page header image</p>
               <p>inner template header image</p>
               <p>
                 content imports, up to 25 additional pages(client must provide
@@ -59,9 +59,9 @@ export default function WebDevOptions({ hideSpinner }) {
               <p>contact forms</p>
               <p>feature meta tag / SEO</p>
               <p>5 GB storage</p>
-              <p>30 GB load volume</p>
+
               <p>domain registration, full deployment</p>
-              <p>annual domain https registration</p>
+              <p>annual https registration</p>
               <p>35 days delivery</p>
               <p>1 hour - zoom/video consultation</p>
               <button>Order Now</button>
@@ -89,7 +89,7 @@ export default function WebDevOptions({ hideSpinner }) {
               </p>
               <p>multiple design selections</p>
               <p>inner page template sketch-1 adjustment rounds</p>
-              <p>home page sheader image</p>
+              <p>home page header image</p>
               <p>inner template header image</p>
               <p>
                 content imports, up to 15 additional pages(client must provide
@@ -100,9 +100,9 @@ export default function WebDevOptions({ hideSpinner }) {
               <p>contact forms</p>
               <p>feature meta tag / SEO</p>
               <p>5 GB storage</p>
-              <p>30 GB load volume</p>
+
               <p>domain registration, full deployment</p>
-              <p>annual domain https registration</p>
+              <p>annual https registration</p>
               <p>15 days delivery</p>
               <p>1 hour - zoom/video consultation</p>
 
@@ -116,12 +116,12 @@ export default function WebDevOptions({ hideSpinner }) {
                 <h3>Vector React EXPRESS</h3>
                 <hr></hr>
               </div>
-              <div className="description">
-                <p>
-                  UI/UX front-end template design, easy to use, update and
-                  maintain.
-                </p>
-              </div>
+
+              <p>
+                UI/UX front-end template design, easy to use, update and
+                maintain.
+              </p>
+
               <div className="price">
                 <h2>$2,180</h2>
               </div>
@@ -135,7 +135,7 @@ export default function WebDevOptions({ hideSpinner }) {
               <p style={{ color: "gray", textDecoration: "line-through" }}>
                 inner page template sketch-1 adjustment rounds
               </p>
-              <p>home page sheader image</p>
+              <p>home page header image</p>
               <p>inner template header image</p>
               <p>
                 content imports, up to 5 additional pages(client must provide
@@ -146,9 +146,9 @@ export default function WebDevOptions({ hideSpinner }) {
               <p>contact forms</p>
               <p>feature meta tag / SEO</p>
               <p>5 GB storage</p>
-              <p>30 GB load volume</p>
+
               <p>domain registration, full deployment</p>
-              <p>annual domain https registration</p>
+              <p>annual https registration</p>
               <p>10 days delivery</p>
               <p>1 hour - zoom/video consultation</p>
 

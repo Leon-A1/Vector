@@ -42,22 +42,22 @@ export default function DesktopNavBar() {
         <ul>
           <li>
             <a onClick={hideNavbar} href="/">
-              Home
+              <i class="fas fa-home"></i>Home
             </a>
           </li>
           <li>
             <Link onClick={hideNavbar} to="/about">
-              About
+              <i className="fas fa-address-card"></i>About
             </Link>
           </li>
           <li>
             <Link onClick={hideNavbar} to="/contact">
-              Contact
+              <i class="fas fa-pencil-alt"></i> Contact
             </Link>
           </li>
           <li>
             <Link onClick={hideNavbar} to="/plans/basic">
-              Plans
+              <i class="fas fa-wallet"></i>Plans
             </Link>
           </li>
         </ul>

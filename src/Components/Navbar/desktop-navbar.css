@@ -60,10 +60,27 @@
   color: var(--color-dark);
   cursor: pointer;
   transition: 600ms;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  filter: drop-shadow(1px 1px 10px rgba(255, 255, 255, 0.3));
 }
+
 .main-landing-navigation aside ul li a:hover {
+  color: var(--color-black);
+  transition: 300ms;
+}
+.main-landing-navigation aside ul li i {
   font-size: 3rem;
-  color: var(--color-main);
+  color: var(--color-dark);
+  cursor: pointer;
+  transition: 600ms;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.main-landing-navigation aside ul li i:hover {
+  font-size: 3rem;
+  color: var(--color-black);
   transition: 300ms;
 }
 #main-landing-div {

@@ -48,7 +48,7 @@ export default function WebDevOptions({ hideSpinner }) {
               </strong>
               <p>custom design per client requirements</p>
               <p>home and inner page template sketch - 8 adjustment rounds</p>
-              <p>home page sheader image</p>
+              <p>home page header image</p>
               <p>inner template header image</p>
               <p>
                 content imports, up to 25 additional pages(client must provide
@@ -59,10 +59,10 @@ export default function WebDevOptions({ hideSpinner }) {
               <p>contact forms</p>
               <p>meta tag / SEO features </p>
               <p>5 GB storage</p>
-              <p>30 GB load volume</p>
+
               <p>domain registration, full deployment</p>
               <strong>
-                <p>annual domain https registration</p>
+                <p>annual https registration</p>
               </strong>
               <p>35 days delivery</p>
               <strong>
@@ -100,7 +100,7 @@ export default function WebDevOptions({ hideSpinner }) {
                 custom design per client requirements
               </p>
               <p>home and inner page template sketch - 2 adjustment rounds</p>
-              <p>home page sheader image</p>
+              <p>home page header image</p>
               <p>inner template header image</p>
               <p>
                 content imports, up to 25 additional pages(client must provide
@@ -111,12 +111,12 @@ export default function WebDevOptions({ hideSpinner }) {
               <p>contact forms</p>
               <p>meta tag / SEO features </p>
               <p>5 GB storage</p>
-              <p>30 GB load volume</p>
+
               <p>domain registration, full deployment</p>
               <strong>
-                <p>annual domain https registration</p>
+                <p>annual https registration</p>
               </strong>
-              <p>35 days delivery</p>
+              <p>25 days delivery</p>
               <strong>
                 {" "}
                 <p>Paypal integration</p>

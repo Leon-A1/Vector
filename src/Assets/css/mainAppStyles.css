@@ -6,7 +6,8 @@
   --color-secondary: #78e0dc;
   --color-light-dark: rgb(122, 122, 122);
   --color-dark: #66635b;
-  --color-text-color: #ffe2d1;
+  /* --color-text-color: #ffe2d1; */
+  --color-text-color: rgb(241, 241, 241);
   --main-font-family: "EB Garamond", serif;
   --secondary-font-family: "Libre Baskerville", serif;
 }
