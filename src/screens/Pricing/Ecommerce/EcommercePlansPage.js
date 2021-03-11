@@ -30,14 +30,7 @@ export default function WebDevOptions({ hideSpinner }) {
               <div>
                 <p className="pre-plan">Custom ecommerce application</p>
                 <h3>GOLD Shop</h3>
-                <span
-                  style={{
-                    color: "var(--color-main)",
-                    fontSize: "1.25rem",
-                  }}
-                >
-                  designed with React
-                </span>
+
                 <hr></hr>
               </div>
               <p>
@@ -85,14 +78,7 @@ export default function WebDevOptions({ hideSpinner }) {
               <div>
                 <p className="pre-plan">ecommerce application</p>
                 <h3>Shop PRO</h3>
-                <span
-                  style={{
-                    color: "var(--color-main)",
-                    fontSize: "1.25rem",
-                  }}
-                >
-                  designed with React
-                </span>
+
                 <hr></hr>
               </div>
               <p>
