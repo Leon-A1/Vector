@@ -4,19 +4,12 @@ import "./styles.css";
 const ReasonsSection = () => {
   return (
     <div className="react-reasons-section">
-      <p>
-        React is one of the best frontend tools for building web user
-        interfaces. It has a component-based architecture, which means we can
-        reuse code and create component libraries. This saves significant time
-        and money on web development.
-      </p>
-
-      <p>
+      {/* <p>
         As early adopters of React, we’ve already developed diverse reusable
         React components, full-scale web applications, and React Native mobile
         apps. Using our best in-house resources, we deliver the following
         services:
-      </p>
+      </p> */}
       <div className="reasons-section-flex-box">
         <div>
           <h3>React web app development</h3>

@@ -42,14 +42,12 @@ const About = ({ hideSpinner }) => {
             </p>
           </div>
           <div className="gwu-col">
-            <h3>360-degree and VR experiences using React</h3>
+            <h3>Maintenance and customization</h3>
             <p>
-              Using React 360, a framework for building 3D and VR user
-              interfaces, we create 360-degree videos and virtual reality
-              experiences for multiple platforms. Whether you’re offering a
-              360-degree tour for a travel app or a spherical photo viewer for a
-              photographer community, we can help you create immersive
-              experiences for your users.
+              React is one of the best frontend tools for building web user
+              interfaces. It has a component-based architecture, which means we
+              can reuse code and create component libraries. This saves
+              significant time and money on web development.
             </p>
           </div>
         </div>
