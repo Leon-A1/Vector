@@ -5,7 +5,6 @@ import "../styles.css";
 export default function WebDevOptions() {
   return (
     <div>
-      {/* <PageNavigation /> */}
       <div className="page-header">
         <div className="small-h6-page-navigation">
           <p>המסלולים שלנו בריאקט</p>
@@ -148,7 +147,6 @@ export default function WebDevOptions() {
           * עלות חודשית בגין תחזוקת האתר תתומחר בנפרד.
         </h6>
       </div>
-      {/* <PageFooter /> */}
     </div>
   );
 }
