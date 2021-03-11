@@ -1,23 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../styles.css";
 import sadgroup1 from "./images/sadgroup1.png";
 import sadgroup2 from "./images/sadgroup2.png";
 import sadgroup3 from "./images/sadgroup3.png";
 import sadgroup4 from "./images/sadgroup4.png";
-import Spinner from "../../../Components/Spinner/PageLoaderSpinner";
 
-const ProjectScreen = ({
-  isLoading,
-
-  showImageModal,
-  closeImageModal,
-}) => {
-  useEffect(() => {
-    setTimeout(() => {}, 5000);
-  });
-  return isLoading ? (
-    <Spinner />
-  ) : (
+const ProjectScreen = ({ showImageModal, closeImageModal }) => {
+  return (
     <div className="project-screen-container">
       <div className="project-screen-card-container">
         <div className="project-screen-content-col">

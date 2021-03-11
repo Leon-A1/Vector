@@ -9,6 +9,8 @@
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
+  z-index: 1000;
+  transition: 2000ms;
 }
 
 svg {
@@ -18,7 +20,7 @@ svg {
 .gradient {
   animation-iteration-count: infinite;
   animation-duration: 1s;
-  fill: #00b6ad;
+  fill: #536dfe;
 }
 .square {
   animation-iteration-count: infinite;

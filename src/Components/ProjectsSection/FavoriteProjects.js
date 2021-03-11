@@ -7,6 +7,11 @@ import elec from "./images/elec1.png";
 import sectionBackground from "../../Assets/img/project-section-background.svg";
 
 export default function FavoriteProjects() {
+  const hideSpinner = () => {
+    document.querySelector("#main-spinner").style.opacity = "0";
+    document.querySelector("#main-spinner").style.transform =
+      "translateY(300%)";
+  };
   return (
     <div className="cards-main-container">
       <img
@@ -24,7 +29,12 @@ export default function FavoriteProjects() {
         </h1>
         <div className="card">
           <div className="card-content">
-            <img id="background-card-image" src={sad} alt="" />
+            <img
+              id="background-card-image"
+              src={sad}
+              onLoad={hideSpinner}
+              alt=""
+            />
             <h1>
               <a
                 href="https://www.sadgroup.co.il/"
