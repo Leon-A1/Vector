@@ -14,6 +14,9 @@ import ContactPage from "./screens/ContactPage/Contact";
 import WorksPage from "./screens/PreviousWorksPage/PreviousWorks";
 import Navbar from "./Components/Navbar/DesktopNavBar";
 
+import EcomPricingPage from "./screens/Pricing/Ecommerce/EcommercePlansPage";
+import BasicPricingPage from "./screens/Pricing/Authority/BasicPlansPage";
+
 function App() {
   useEffect(() => {
     Aos.init({ duration: 1200 });
@@ -50,6 +53,12 @@ function App() {
           </Route>
           <Route path="/previous-works">
             <WorksPage />
+          </Route>
+          <Route path="/plans/ecommerce">
+            <EcomPricingPage />
+          </Route>
+          <Route path="/plans/basic">
+            <BasicPricingPage />
           </Route>
           <Route path="/projects/fastway">
             <ProjectScreenFW
