@@ -103,6 +103,7 @@
 }
 .project-screen-social-buttons .project-screen-github-button:hover {
   background-color: var(--color-main);
+  color: var(--color-black);
   transition: 300ms;
 }
 
@@ -111,7 +112,7 @@
   transition: 300ms;
 }
 .project-screen-github-button a:hover {
-  color: var(--color-white);
+  color: var(--color-black);
   transition: 300ms;
 }
 .project-screen-github-button i {
@@ -121,8 +122,6 @@
   padding: 10px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  color: black;
-  background-color: var(--color-white);
   transition: 300ms;
 }
 .project-screen-live-demo-button a:hover {
@@ -130,7 +129,7 @@
   padding-right: 1.5rem;
   background-color: var(--color-main);
   transition: 300ms;
-  color: var(--color-white);
+  color: var(--color-black);
 }
 .project-screen-live-demo-button a {
   font-size: 1.75rem;

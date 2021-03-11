@@ -30,7 +30,6 @@ ul {
   flex-direction: column;
   overflow-x: hidden;
   overflow-y: hidden;
-  /* margin-top: 75px; */
 }
 .main-tag {
   z-index: 1;

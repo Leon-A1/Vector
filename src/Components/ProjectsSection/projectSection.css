@@ -20,17 +20,17 @@
 .projects-heading {
   color: var(--color-main);
   width: 100%;
-  font-size: 45px;
+  font-size: 3rem;
   text-align: center;
   margin: 25px;
-  position: relative;
-  font-family: Helvetica, sans-serif;
+  font-family: var(--main-font-family);
 }
 .projects-heading::after {
   content: "";
   width: 30%;
   height: 3px;
   background-color: var(--color-white);
+  opacity: 0.5;
   position: absolute;
   top: 85%;
   left: 0;
@@ -69,7 +69,6 @@
 .card-content {
   background-color: var(--color-white);
   background-color: rgba(34, 34, 34, 0.8);
-  border: 1px solid var(--color-light-dark);
   position: relative;
   height: 100%;
   margin-left: 10px;
@@ -93,22 +92,21 @@
   padding: 3px;
 }
 .card .card-content a:hover {
-  background-color: var(--color-main);
+  background-color: var(--color-secondary);
   transition: 300ms;
-  color: var(--color-white);
+  color: var(--color-black);
 }
 .card h1 {
-  font-size: 25px;
-  color: var(--color-black);
+  font-size: 1.25rem;
+  /* color: var(--color-black); */
   text-align: center;
   transition: 300ms;
   margin: 0;
   margin-top: 165px;
-
   padding: 0;
 }
 .card h1:hover {
-  color: var(--color-main);
+  color: var(--color-secondary);
   transition: 300ms;
 }
 .card p {
@@ -116,6 +114,7 @@
   padding-right: 15px;
   max-height: 55px;
   overflow: hidden;
+  color: var(--color-black);
   font-family: Helvetica, sans-serif;
 }
 

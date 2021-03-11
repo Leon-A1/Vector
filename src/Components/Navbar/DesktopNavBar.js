@@ -56,8 +56,8 @@ export default function DesktopNavBar() {
             </Link>
           </li>
           <li>
-            <Link onClick={hideNavbar} to="/works">
-              Portfolio
+            <Link onClick={hideNavbar} to="/Plans">
+              Plans
             </Link>
           </li>
         </ul>

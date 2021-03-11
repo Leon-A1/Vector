@@ -3,8 +3,9 @@
 }
 .open-side-nav-button {
   position: fixed;
-  right: 20px;
-  font-size: 3rem;
+  top: 20px;
+  right: 30px;
+  font-size: 2.5rem;
   z-index: 500;
   background-color: transparent;
   color: var(--color-black);
@@ -20,9 +21,10 @@
 }
 .close-side-nav-button {
   position: fixed;
+  top: 20px;
   right: 20px;
   z-index: 1000;
-  font-size: 3rem;
+  font-size: 2.5rem;
   background-color: transparent;
   color: var(--color-black);
   outline: none;
