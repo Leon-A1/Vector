@@ -1,0 +1,57 @@
+.react-reasons-section {
+  color: var(--color-white);
+  background-color: var(--color-main);
+  padding: 5rem 20px;
+}
+.react-reasons-section div h3 {
+  margin-top: 20px;
+  color: var(--color-secondary);
+  font-size: 1.75rem;
+}
+.react-reasons-section p {
+  color: var(--color-black);
+  font-family: var(--main-font-family);
+  font-size: 1.5rem;
+}
+
+@media (min-width: 600px) {
+}
+@media (min-width: 1200px) {
+  .react-reasons-section p {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    /* font-size: 2rem; */
+  }
+  .react-reasons-section .reasons-section-flex-box {
+    display: flex;
+  }
+  .react-reasons-section .reasons-section-flex-box div {
+    padding: 20px;
+  }
+}
+@media (min-width: 1600px) {
+  .react-reasons-section > p {
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    font-size: 2rem;
+    color: var(--color-white);
+    filter: drop-shadow(1px 1px 2px white);
+  }
+  .react-reasons-section .reasons-section-flex-box {
+    display: flex;
+    padding: 50px;
+    max-width: 1600px;
+    margin: auto;
+  }
+  .react-reasons-section .reasons-section-flex-box div {
+    padding: 20px;
+  }
+  .react-reasons-section .reasons-section-flex-box div h3 {
+    font-size: 2.75rem;
+  }
+  .react-reasons-section .reasons-section-flex-box div p {
+    font-size: 1.5rem;
+  }
+}

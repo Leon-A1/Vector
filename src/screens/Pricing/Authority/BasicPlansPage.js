@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles.css";
+import pricing_img from "../pricing-options.svg";
+import header_img from "../header-img.svg";
 
 export default function WebDevOptions({ hideSpinner }) {
   useEffect(() => {
@@ -9,6 +11,8 @@ export default function WebDevOptions({ hideSpinner }) {
   return (
     <div>
       <div className="page-header">
+        <img src={header_img} alt=""></img>
+
         <div className="small-page-navigation">
           <p>React Plans</p>
           <i className="fa fa-arrow-left" aria-hidden="true"></i>
@@ -17,8 +21,10 @@ export default function WebDevOptions({ hideSpinner }) {
         <h4>Pricing Options</h4>
       </div>
       <div className="web-dev-page-content">
+        <img src={pricing_img} alt="img"></img>
+
         <div className="page-content-header">
-          <h3>React Based Pricing Options</h3>
+          <h3>Pricing Options</h3>
         </div>
         <div className="two-options-buttons-links">
           <button style={{ backgroundColor: "#e2443f" }}>Basic</button>

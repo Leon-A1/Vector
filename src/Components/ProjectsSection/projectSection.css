@@ -47,10 +47,14 @@
   flex-grow: 0;
   justify-content: center;
   transition: 0s;
-  padding-bottom: 50px;
+
   width: 100%;
   overflow-x: hidden;
   max-width: 900px;
+  /* filter: drop-shadow(1px 1px 10px black); */
+}
+.cards > div {
+  filter: drop-shadow(1px 1px 10px black);
 }
 
 .card {
@@ -147,5 +151,8 @@
   .card img {
     margin: 0;
     border-radius: 0;
+  }
+  .cards {
+    padding-bottom: 50px;
   }
 }

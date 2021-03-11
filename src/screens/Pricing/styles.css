@@ -6,10 +6,104 @@
   padding: 10px;
   background-color: var(--color-black);
   color: var(--color-white);
+  position: relative;
+  overflow: hidden;
+}
+.web-dev-page-content img {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.9;
+  width: 100%;
+  filter: drop-shadow(1px 1px 15px rgba(0, 0, 0, 0.3));
+  overflow: hidden;
 }
 
+.page-header {
+  position: relative;
+  background-color: #121212;
+  min-height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  position: relative;
+  color: var(--color-black);
+  flex-wrap: wrap;
+  background-color: var(--color-white);
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.page-header img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 125%;
+  transform: translate(5vw, 5vh);
+  z-index: 0;
+  background-attachment: fixed;
+  filter: drop-shadow(1px 1px 15px black);
+  z-index: 0;
+  opacity: 0.3;
+  overflow-x: hidden;
+}
+.page-header h4 {
+  width: 100%;
+  text-align: end;
+  z-index: 10;
+  margin: 20px;
+  font-size: 2rem;
+  z-index: 1;
+  color: var(--color-main);
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+.small-page-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 200px;
+  margin-right: 20px;
+  z-index: 10;
+}
+
+.small-page-navigation p {
+  color: var(--color-black);
+}
+.small-page-navigation i {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 80%;
+  color: var(--color-black);
+}
+.small-page-navigation a {
+  margin: 3px;
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.page-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: var(--color-black);
+  padding: 20px;
+  justify-content: center;
+}
 .page-content-header {
-  background-color: var(--color-light-dark);
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.page-content-header h3 {
+  max-width: 500px;
+  display: block;
+  margin: auto;
 }
 
 .page-content-header h3 {
@@ -21,6 +115,7 @@
 
 .two-options-buttons-links {
   display: flex;
+  z-index: 1;
 }
 .two-options-buttons-links button {
   padding: 10px;
@@ -46,8 +141,13 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
+
+  /* background-color: rgba(0, 0, 0, 0.1); */
 }
-.three-options-web-dev-image div {
+.three-options-web-dev-image > div {
+  z-index: 1000;
+  background-color: rgba(245, 245, 245, 0.9);
+
   /* min-width: 600px !important; */
 }
 
@@ -173,56 +273,23 @@
   transform: scale(1.1);
   transition: 300ms ease;
 }
+
+/* ####CALL NOW CONTAINER ##### */
 .call-now-container {
-  background-color: #eaeaf4;
+  background-color: rgba(234, 234, 244, 0.6);
   width: 70vw;
   height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
+  z-index: 1;
 }
 .call-now-container h2 {
   color: var(--color-main);
   text-align: center;
 }
-@media (min-width: 600px) {
-  .red {
-    margin: 50px;
 
-    /* height: 850px; */
-  }
-
-  .three-options-web-dev-image div header {
-    font-size: 150%;
-    height: 450px;
-  }
-  .three-options-web-dev-image div {
-    max-width: 400px;
-  }
-  .green {
-    margin: 50px;
-
-    /* height: 850px; */
-  }
-  .purple {
-    margin: 50px;
-
-    /* height: 850px; */
-  }
-  .included-services {
-    font-size: 125%;
-  }
-  .included-services p {
-    margin: 30px;
-  }
-  h6 {
-    font-size: 90%;
-  }
-  .call-now-container {
-    font-size: 125%;
-  }
-}
 .page-navigation-wrapper {
   background-color: rgba(0, 89, 150, 0.6);
   z-index: 1001;
@@ -249,100 +316,12 @@
   top: 10px;
 }
 
-.page-header {
-  position: relative;
-  background-color: #121212;
-  min-height: 300px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding-bottom: 30px;
-  padding-right: 30px;
-  position: relative;
-  color: var(--color-black);
-  flex-wrap: wrap;
-  background-color: var(--color-white);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.page-header img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  background-attachment: fixed;
-}
-.page-header h4 {
-  width: 100%;
-  text-align: end;
-  z-index: 10;
-  margin: 20px;
-  font-size: 2rem;
-}
-
-.small-page-navigation {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 200px;
-  margin-right: 20px;
-  z-index: 10;
-}
-
-.small-page-navigation p {
-  color: var(--color-black);
-}
-.small-page-navigation i {
-  margin-right: 5px;
-  margin-left: 5px;
-  font-size: 80%;
-  color: var(--color-black);
-}
-.small-page-navigation a {
-  margin: 3px;
-  text-decoration: none;
-  color: var(--color-black);
-}
-
-.page-content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  color: var(--color-black);
-  padding: 20px;
-
-  justify-content: center;
-}
-.page-content-header {
-  /* text-align: center; */
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 30px;
-}
-.page-content-header h3 {
-  max-width: 500px;
-  display: block;
-  margin: auto;
-}
-
-.web-marketing-info-card {
-  padding: 30px;
-  border: solid 1px;
-  max-width: 700px;
-  width: 100%;
-  display: block;
-  margin: auto;
-  margin-bottom: 20px;
-  color: red;
-}
-.web-marketing-info-card p {
-  color: red;
-}
 @media (min-width: 600px) {
+  .page-header img {
+    width: 100%;
+    transform: translate(1vw, 5vh);
+    opacity: 0.3;
+  }
   .three-options-web-dev-image div {
     min-width: 500px;
   }
@@ -352,34 +331,45 @@
   }
 
   .small-page-navigation {
-    font-size: 150%;
+    font-size: 1.25rem;
   }
 
   .page-content-header h3 {
     font-size: 4rem;
-    min-width: 800px;
+    min-width: 600px;
   }
-  .page-content-header p {
-    font-size: 125%;
-  }
-  .page-content p {
-    font-size: 125%;
-  }
-  /* .page-content p {
-      font-size: 175%;
-    } */
 
-  .might-also-interest-you-grid {
-    margin-bottom: 50px;
+  .three-options-web-dev-image div header {
+    font-size: 1.5rem;
+    height: 450px;
   }
-  .might-also-interest-you-grid p {
+  .three-options-web-dev-image div {
+    max-width: 400px;
+  }
+  .red {
+    margin: 50px;
+  }
+  .green {
+    margin: 50px;
+  }
+  .purple {
+    margin: 50px;
+  }
+  .included-services {
+    font-size: 1.25rem;
+  }
+  .included-services p {
+    margin: 30px;
+  }
+
+  .call-now-container {
     font-size: 125%;
   }
-  .info-card {
-  }
-  .info-card a {
-    font-size: 150%;
-  }
-  .info-card p {
+}
+@media (min-width: 1600px) {
+  .page-header img {
+    width: 40%;
+    transform: translate(1vw, 5vh);
+    opacity: 1;
   }
 }

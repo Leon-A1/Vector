@@ -1,0 +1,119 @@
+.additional-page-container {
+  width: 100%;
+  overflow: hidden !important;
+  position: relative;
+}
+.additional-page-container header img {
+  width: 100%;
+  filter: drop-shadow(1px 1px 10px black);
+}
+.additional-page-container header h1 {
+  color: var(--color-secondary);
+  text-align: center;
+  filter: drop-shadow(1px 1px 10px black);
+}
+.additional-page-container section {
+  padding: 20px;
+}
+.additional-page-container section h4 {
+  color: var(--color-black);
+  text-align: left;
+  padding: 0px 30px;
+  filter: drop-shadow(1px 1px 10px black);
+}
+.additional-page-container section p {
+  color: var(--color-black);
+  text-align: left;
+  padding: 10px 30px;
+}
+.additional-page-container section h3 {
+  color: var(--color-secondary);
+  text-align: center;
+  filter: drop-shadow(1px 1px 10px black);
+  margin-top: 20px;
+}
+
+@media (min-width: 600px) {
+  .additional-page-container header {
+    padding-top: 10vh;
+  }
+  .additional-page-container {
+  }
+  .additional-page-container header img {
+    width: 200%;
+    filter: drop-shadow(1px 1px 10px black);
+    position: absolute;
+    opacity: 0.1;
+    top: 5vh;
+    left: 0vh;
+  }
+  .additional-page-container header h1 {
+    font-size: 6rem;
+  }
+  .additional-page-container section {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+  }
+  .additional-page-container section h4 {
+    font-size: 2.5rem;
+  }
+  .additional-page-container section h3 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin-left: 30px;
+  }
+  .additional-page-container section p {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .additional-page-container header {
+    padding-top: 10vh;
+  }
+  .additional-page-container {
+  }
+  .additional-page-container header img {
+    width: 200vw;
+
+    image-resolution: cover;
+
+    filter: drop-shadow(1px 1px 10px black);
+    position: absolute;
+    opacity: 0.1;
+    top: 5vh;
+    left: 0vh;
+  }
+  .additional-page-container header h1 {
+    text-align: left;
+    padding-left: 400px;
+    font-size: 9rem;
+  }
+  .additional-page-container section {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+  }
+  .additional-page-container section h4 {
+    font-size: 2.5rem;
+  }
+  .additional-page-container section h3 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin-left: 30px;
+  }
+  .additional-page-container section p {
+    font-size: 2rem;
+  }
+  .additional-page-container section .flex-box-get-with-us {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .additional-page-container section .flex-box-get-with-us div {
+    min-width: 400px;
+  }
+  .additional-page-container section .flex-box-get-with-us div p {
+    font-size: 1.5rem;
+  }
+}
