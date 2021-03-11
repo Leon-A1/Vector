@@ -9,6 +9,7 @@
   z-index: -1;
 }
 .additional-page-container header h1 {
+  margin-top: 1rem;
   color: var(--color-secondary);
   text-align: center;
   filter: drop-shadow(1px 1px 10px black);
@@ -19,13 +20,13 @@
 .additional-page-container section h4 {
   color: var(--color-black);
   text-align: left;
-  padding: 0px 30px;
+  padding: 0px 20px;
   filter: drop-shadow(1px 1px 10px black);
 }
 .additional-page-container section p {
   color: var(--color-black);
   text-align: left;
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 .additional-page-container section h3 {
   color: var(--color-secondary);
@@ -39,6 +40,7 @@
 }
 
 .additional-page-container section form input {
+  padding: 1rem;
   width: 100%;
   margin-bottom: 20px;
   color: black;
@@ -46,6 +48,7 @@
 .additional-page-container section form textarea {
   width: 100%;
   color: black;
+  padding: 1rem;
 }
 .additional-page-container section form button {
   width: 100%;
@@ -55,6 +58,7 @@
   background-color: var(--color-black);
   transition: 600ms;
   cursor: pointer;
+  padding: 1rem;
 }
 .additional-page-container section form button:hover {
   color: var(--color-black);
@@ -95,13 +99,13 @@
     font-size: 2rem;
   }
   .additional-page-container section form input {
-    padding: 1rem;
+    /* padding: 1rem; */
   }
   .additional-page-container section form textarea {
-    padding: 1rem;
+    /* padding: 1rem; */
   }
   .additional-page-container section form button {
-    padding: 1rem;
+    /* padding: 1rem; */
   }
 }
 @media (min-width: 1200px) {

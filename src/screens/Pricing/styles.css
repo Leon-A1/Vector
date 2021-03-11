@@ -180,7 +180,7 @@
 
 .three-options-web-dev-image div p {
   color: var(--color-white);
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 0 30px;
   font-family: "Gill Sans", sans-serif;
 }
@@ -374,5 +374,8 @@
     width: 40%;
     transform: translate(1vw, 2vh);
     opacity: 1;
+  }
+  .three-options-web-dev-image div p {
+    font-size: 1.75rem;
   }
 }
