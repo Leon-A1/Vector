@@ -177,11 +177,12 @@
   font-family: "Gill Sans", sans-serif;
   color: var(--color-black);
 }
-.three-options-web-dev-image div header div p {
-  color: var(--color-white);
-}
+
 .three-options-web-dev-image div p {
   color: var(--color-white);
+  font-size: 1.25rem;
+  padding: 0 30px;
+  font-family: "Gill Sans", sans-serif;
 }
 .three-options-web-dev-image button {
   cursor: pointer;
