@@ -12,8 +12,6 @@
 .cards-main-container {
   position: relative;
   background-color: var(--color-black);
-  display: flex;
-  justify-content: center;
   z-index: 0;
 }
 
@@ -24,15 +22,17 @@
   text-align: center;
   margin: 25px;
   font-family: var(--main-font-family);
+  position: relative;
+  filter: drop-shadow(2px 3px 2px black);
 }
 .projects-heading::after {
   content: "";
-  width: 30%;
-  height: 3px;
+  width: 50%;
+  height: 5px;
   background-color: var(--color-white);
   opacity: 0.5;
   position: absolute;
-  top: 85%;
+  top: 75%;
   left: 0;
   right: 0;
   margin: auto;
@@ -47,14 +47,15 @@
   flex-grow: 0;
   justify-content: center;
   transition: 0s;
-
   width: 100%;
   overflow-x: hidden;
-  max-width: 900px;
-  /* filter: drop-shadow(1px 1px 10px black); */
+  max-width: 850px;
+  margin: auto;
+  padding: 20px;
 }
 .cards > div {
-  filter: drop-shadow(1px 1px 10px black);
+  filter: drop-shadow(1px 1px 15px black);
+  opacity: 0.9;
 }
 
 .card {
@@ -102,7 +103,6 @@
 }
 .card h1 {
   font-size: 1.25rem;
-  /* color: var(--color-black); */
   text-align: center;
   transition: 300ms;
   margin: 0;
@@ -119,7 +119,7 @@
   max-height: 55px;
   overflow: hidden;
   color: var(--color-black);
-  font-family: Helvetica, sans-serif;
+  font-family: var(--main-font-family);
 }
 
 .card-technologies-used {
@@ -137,10 +137,10 @@
     font-size: 4rem;
   }
   .projects-heading::after {
-    width: 20%;
+    width: 30%;
   }
   .card {
-    max-width: 300px;
+    max-width: 400px;
     margin: 0;
     border: solid 1px var(--color-light-dark);
   }

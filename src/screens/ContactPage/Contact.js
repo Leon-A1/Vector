@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import header_img from "./about-img.svg";
+import header_img from "./contact-img.svg";
 import "./styles.css";
 
 const Contact = ({ hideSpinner }) => {

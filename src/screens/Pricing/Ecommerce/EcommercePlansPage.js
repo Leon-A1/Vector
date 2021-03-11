@@ -12,13 +12,6 @@ export default function WebDevOptions({ hideSpinner }) {
     <div>
       <div className="page-header">
         <img src={header_img} alt=""></img>
-        <div className="small-page-navigation">
-          <p>React Plans</p>
-
-          <i className="fa fa-arrow-left" aria-hidden="true"></i>
-          <a href="/">home</a>
-        </div>
-        <h4>Pricing Options</h4>
       </div>
       <div className="web-dev-page-content">
         <img src={pricing_img} alt="img"></img>
@@ -39,7 +32,6 @@ export default function WebDevOptions({ hideSpinner }) {
                 <h3>GOLD Shop</h3>
                 <span
                   style={{
-                    filter: "drop-shadow(1px 1px 3px black)",
                     color: "var(--color-main)",
                     fontSize: "1.25rem",
                   }}
@@ -95,7 +87,6 @@ export default function WebDevOptions({ hideSpinner }) {
                 <h3>Shop PRO</h3>
                 <span
                   style={{
-                    filter: "drop-shadow(1px 1px 3px white)",
                     color: "var(--color-main)",
                     fontSize: "1.25rem",
                   }}

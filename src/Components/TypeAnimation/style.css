@@ -19,15 +19,16 @@
 }
 .text-animation-container h3 {
   font-weight: 300;
-  color: var(--color-secondary);
+  color: var(--color-black);
   filter: drop-shadow(1px 1px 5px black);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   z-index: 1000;
   font-family: Helvetica, sans-serif;
+  opacity: 0.3;
 }
 .text-animation-container span .company-name {
   font-weight: 500;
-  font-size: 1.75rem;
+  font-size: 4rem;
   color: var(--color-main);
   filter: drop-shadow(1px 1px 3px black);
 }
@@ -37,7 +38,6 @@
   border-right: 2px solid black;
   color: var(--color-main);
   font-family: var(--secondary-font-family);
-  filter: drop-shadow(1px 1px 5px black);
 }
 
 @media (min-width: 600px) {
@@ -45,7 +45,7 @@
     height: 175px;
   }
   .text-animation-container span .company-name {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
   }
   .text-animation-container h1 {
     font-size: 3.5rem;
@@ -60,7 +60,7 @@
     min-width: 800px;
   }
   .text-animation-container span .company-name {
-    font-size: 3rem;
+    font-size: 6rem;
   }
 
   .text-animation-container h1 {
@@ -75,12 +75,12 @@
     height: 250px;
   }
   .text-animation-container span .company-name {
-    font-size: 4rem;
+    font-size: 8rem;
   }
   .text-animation-container .title {
     font-size: 5.5rem;
   }
   .text-animation-container h3 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }

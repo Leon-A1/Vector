@@ -165,7 +165,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  text-align: left;
   height: 300px;
   filter: drop-shadow(1px 1px 5px black);
 }
@@ -174,6 +173,9 @@
 }
 .three-options-web-dev-image div header .price h2 {
   width: 100%;
+  font-size: 3rem;
+  font-family: "Gill Sans", sans-serif;
+  color: var(--color-black);
 }
 .three-options-web-dev-image div header div p {
   color: var(--color-white);
@@ -369,7 +371,7 @@
 @media (min-width: 1600px) {
   .page-header img {
     width: 40%;
-    transform: translate(1vw, 5vh);
+    transform: translate(1vw, 2vh);
     opacity: 1;
   }
 }

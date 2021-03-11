@@ -71,10 +71,10 @@ const AnimationHeader = () => {
   return (
     <div className="text-animation-container">
       <span>
-        <span className="company-name">Vector Development</span>&nbsp;
+        <span className="company-name">VECTOR</span>
       </span>
       <div data-aos="fade-right">
-        <h3>Clear Direction To Success</h3>
+        <h3>The Only Direction</h3>
       </div>
 
       <h1 className="title">

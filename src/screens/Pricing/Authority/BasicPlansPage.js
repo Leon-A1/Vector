@@ -12,13 +12,6 @@ export default function WebDevOptions({ hideSpinner }) {
     <div>
       <div className="page-header">
         <img src={header_img} alt=""></img>
-
-        <div className="small-page-navigation">
-          <p>React Plans</p>
-          <i className="fa fa-arrow-left" aria-hidden="true"></i>
-          <a href="/">home</a>
-        </div>
-        <h4>Pricing Options</h4>
       </div>
       <div className="web-dev-page-content">
         <img src={pricing_img} alt="img"></img>
