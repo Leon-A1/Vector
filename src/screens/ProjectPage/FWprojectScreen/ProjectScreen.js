@@ -6,6 +6,11 @@ import fastway4 from "./images/fastway4.png";
 import fastway5 from "./images/fastway5.png";
 
 const ProjectScreen = ({ showImageModal, closeImageModal }) => {
+  const hideSpinner = () => {
+    document.querySelector("#main-spinner").style.opacity = "0";
+    document.querySelector("#main-spinner").style.transform =
+      "translateY(300%)";
+  };
   return (
     <div className="project-screen-container">
       <div className="project-screen-card-container">
@@ -55,6 +60,7 @@ const ProjectScreen = ({ showImageModal, closeImageModal }) => {
                 className="far fa-times-circle"
                 id="close-modal-button"
                 onClick={() => closeImageModal()}
+                onLoad={hideSpinner()}
               ></i>
             </div>
             <img

@@ -6,6 +6,11 @@ import sadgroup3 from "./images/sadgroup3.png";
 import sadgroup4 from "./images/sadgroup4.png";
 
 const ProjectScreen = ({ showImageModal, closeImageModal }) => {
+  const hideSpinner = () => {
+    document.querySelector("#main-spinner").style.opacity = "0";
+    document.querySelector("#main-spinner").style.transform =
+      "translateY(300%)";
+  };
   return (
     <div className="project-screen-container">
       <div className="project-screen-card-container">
@@ -62,6 +67,7 @@ const ProjectScreen = ({ showImageModal, closeImageModal }) => {
               src={sadgroup1}
               alt="sadgroup"
               onClick={() => showImageModal("1")}
+              onLoad={hideSpinner()}
             ></img>
             <div id="image-modal-container2" className="image-modal-container">
               <img src={sadgroup2} alt="sadgroup"></img>

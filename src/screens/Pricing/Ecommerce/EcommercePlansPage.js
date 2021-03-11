@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles.css";
 
-export default function WebDevOptions() {
+export default function WebDevOptions({ hideSpinner }) {
+  useEffect(() => {
+    hideSpinner();
+  });
   return (
     <div>
       <div className="page-header">
-        <div className="small-h6-page-navigation">
-          <p>המסלולים שלנו בריאקט</p>
+        <div className="small-page-navigation">
+          <p>React Plans</p>
+
           <i className="fa fa-arrow-left" aria-hidden="true"></i>
-          <a href="/">עמוד הבית</a>
+          <a href="/">home</a>
         </div>
-        <h1>המסלולים שלנו בריאקט</h1>
+        <h4>Pricing Options</h4>
       </div>
       <div className="web-dev-page-content">
         <div className="page-content-header" style={{ width: "100%" }}>
@@ -19,132 +23,147 @@ export default function WebDevOptions() {
         </div>
         <div className="two-options-buttons-links">
           <button style={{ backgroundColor: "#e2443f" }}>
-            <Link to="/plans/basic">אתרי תדמית</Link>
+            <Link to="/plans/basic">Basic</Link>{" "}
           </button>
-          <button style={{ backgroundColor: "#999999" }}>אתרי מכירות </button>
+          <button style={{ backgroundColor: "#999999" }}>Ecommerce </button>
         </div>
         <div className="three-options-web-dev-image">
           <div className="purple">
             <header>
               <div>
-                <p>אתר מכירות בעיצוב אישי</p>
+                <p className="pre-plan">Custom ecommerce application</p>
                 <h3>GOLD Shop</h3>
-                <p>נבנה על מערכת React Woocommerce</p>
+                <span
+                  style={{
+                    filter: "drop-shadow(1px 1px 3px black)",
+                    color: "var(--color-main)",
+                    fontSize: "1.25rem",
+                  }}
+                >
+                  designed with React
+                </span>
                 <hr></hr>
               </div>
               <p>
-                עיצוב ומבנה האתר מותאמים אישית לצרכי הלקוח עם ממשק ניהול עשיר,
-                נוח וידידותי למשתמש. כולל ניהול פרויקט, ייעוץ וליווי עד לעלייה
-                לאויר.{" "}
+                Rich UI/UX front-end design, easy to use, update and maintain.
+                Fully customized package, project management, personal
+                consultation, step-by-step process to deployment.
               </p>
               <div className="price">
-                <i className="fa fa-ils"></i> <h2>10,800</h2> <span>החל מ</span>
+                <h2>$10,800</h2>
               </div>
             </header>
             <div className="included-services">
               <strong>
-                <p>ניהול פרויקט יעוץ וליווי עד עליה לאויר</p>
+                <p>project management and walkthrough</p>
               </strong>
-              <p>עיצוב מותאם לצרכי הלקוח</p>
-              <strong>
-                {" "}
-                <p>סקיצה לעמוד בית ועמוד פנימי – עד 3 סבבי תיקונים</p>
-              </strong>
-              <p>תמונת אוירה ראשית בעמוד הבית</p>
-              <p>תמונת אוירה בעמודים פנימיים</p>
-              <strong>
-                {" "}
-                <p>התקנת תוסף נגישות</p>
-              </strong>
+              <p>custom design per client requirements</p>
+              <p>home and inner page template sketch - 8 adjustment rounds</p>
+              <p>home page sheader image</p>
+              <p>inner template header image</p>
               <p>
-                הזנת תכנים באתר – עד 25 עמודים (באחריות הלקוח לספק התכנים בפורמט
-                דיגיטלי)
+                content imports, up to 25 additional pages(client must provide
+                digital format content)
               </p>
-              <p>יכולת ניהול והוספת עמודים ללא הגבלה ע"י מנהל האתר!</p>
-              <p>גלריית תמונות / סרטונים לאתר</p>
-              <p>שיתוף וחיבור לרשתות חברתיות</p>
-              <p>טופס צור קשר לקבלת פניות מהאתר</p>
-              <p>תוסף meta tag / SEO</p>
-              <p>שטח אחסון עד 5GB</p>
-              <p>נפח תעבורה 30GB</p>
-              <p>חיבור לדומיין והעלאת האתר לאויר</p>
+              <p>image gallery / videos</p>
+              <p>linking to social media option</p>
+              <p>contact forms</p>
+              <p>meta tag / SEO features </p>
+              <p>5 GB storage</p>
+              <p>30 GB load volume</p>
+              <p>domain registration, full deployment</p>
               <strong>
-                <p style={{ fontWeight: "bold" }}>
-                  התקנת רשיון HTTPS לדומיין לשנה
-                </p>
+                <p>annual domain https registration</p>
               </strong>
+              <p>35 days delivery</p>
               <strong>
-                <p style={{ fontWeight: "bold" }}>חיבור PAYPAL</p>
+                {" "}
+                <p>Paypal integration</p>
               </strong>
-              <p>זמן אספקה 25 ימי עסקים ממועד אישור העיצוב</p>
-              <p>שעת הדרכה טלפונית – בהתחברות מרחוק</p>
-              <button to="/">הזמן עכשיו</button>
+              <p>1 hour - zoom/video consultation</p>
+              <button>Order Now</button>
             </div>
           </div>
           <div className="green">
             <header>
               <div>
-                <p>אתר מכירות</p>
+                <p className="pre-plan">ecommerce application</p>
                 <h3>Shop PRO</h3>
-                <p>נבנה על מערכת React</p>
+                <span
+                  style={{
+                    filter: "drop-shadow(1px 1px 3px white)",
+                    color: "var(--color-main)",
+                    fontSize: "1.25rem",
+                  }}
+                >
+                  designed with React
+                </span>
                 <hr></hr>
               </div>
               <p>
-                עיצוב ומבנה האתר על בסיס תבנית פרימיום עם ממשק ניהול עשיר, נוח
-                וידידותי למשתמש
+                UI/UX front-end template design, easy to use, update and
+                maintain.
               </p>
               <div className="price">
-                <i className="fa fa-ils"></i> <h2>5,100</h2>
+                <h2>$5,100</h2>
               </div>
             </header>
 
             <div className="included-services">
-              <p style={{ color: "gray", textDecoration: "line-through" }}>
-                ניהול פרויקט יעוץ וליווי עד עליה לאויר
-              </p>
-              <p>בחירה ממגוון תבניות בעיצוב עכשוי</p>
-              <p style={{ color: "gray", textDecoration: "line-through" }}>
-                עמוד הבית לאישור, עד 2 סבבי תיקונים
-              </p>
-              <p>תמונת אוירה ראשית בעמוד הבית</p>
-              <p>תמונת אוירה בעמודים פנימיים</p>
-              <p>
-                <strong>התקנת תוסף נגישות</strong>
-              </p>
-              <p>
-                הזנת תכנים באתר – עד <strong>15</strong> עמודים (באחריות הלקוח
-                לספק התכנים בפורמט דיגיטלי)
-              </p>
-              <p>יכולת ניהול והוספת עמודים ללא הגבלה ע"י מנהל האתר!</p>
-              <p>גלריית תמונות / סרטונים לאתר</p>
-              <p>שיתוף וחיבור לרשתות חברתיות</p>
-              <p>טופס צור קשר לקבלת פניות מהאתר</p>
-              <p>תוסף meta tag / SEO</p>
-              <p>שטח אחסון עד 5GB</p>
-              <p>נפח תעבורה 30GB</p>
-              <p>חיבור לדומיין והעלאת האתר לאויר</p>
               <strong>
-                <p style={{ fontWeight: "bold" }}>
-                  התקנת רשיון HTTPS לדומיין לשנה
+                <p style={{ color: "gray", textDecoration: "line-through" }}>
+                  project management and walkthrough
                 </p>
               </strong>
+              <p style={{ color: "gray", textDecoration: "line-through" }}>
+                custom design per client requirements
+              </p>
+              <p>home and inner page template sketch - 2 adjustment rounds</p>
+              <p>home page sheader image</p>
+              <p>inner template header image</p>
+              <p>
+                content imports, up to 25 additional pages(client must provide
+                digital format content)
+              </p>
+              <p>image gallery / videos</p>
+              <p>linking to social media option</p>
+              <p>contact forms</p>
+              <p>meta tag / SEO features </p>
+              <p>5 GB storage</p>
+              <p>30 GB load volume</p>
+              <p>domain registration, full deployment</p>
               <strong>
-                <p style={{ fontWeight: "bold" }}>חיבור PAYPAL</p>
+                <p>annual domain https registration</p>
               </strong>
-              <p>זמן אספקה 25 ימי עסקים ממועד אישור העיצוב</p>
-              <p>שעת הדרכה טלפונית – בהתחברות מרחוק</p>
-              <button>הזמן עכשיו</button>
+              <p>35 days delivery</p>
+              <strong>
+                {" "}
+                <p>Paypal integration</p>
+              </strong>
+              <p>1 hour - zoom/video consultation</p>
+              <button>Order Now</button>
             </div>
           </div>
         </div>
 
         <div className="call-now-container">
-          <h2>לשיחה עם יועץ אינטרנט חייגו 053-626-1201</h2>
+          <h2>
+            Get in touch, get free consultation, no strings attached
+            <i
+              class="fas fa-phone-square"
+              style={{
+                fontSize: "2rem",
+                color: "var(--color-main)",
+                marginLeft: 5,
+              }}
+            ></i>
+          </h2>
         </div>
-
-        <h6 style={{ marginTop: 20 }}>* המחירים אינם כוללים מע"מ.</h6>
-        <h6 style={{ color: "red", marginBottom: 50 }}>
-          * עלות חודשית בגין תחזוקת האתר תתומחר בנפרד.
+        <h6 style={{ marginTop: 20, color: "var(--color-main)" }}>
+          * tax not included.
+        </h6>
+        <h6 style={{ color: "red", marginBottom: 20 }}>
+          * additional maintanance fees might apply.
         </h6>
       </div>
     </div>

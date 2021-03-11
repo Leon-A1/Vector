@@ -53,6 +53,7 @@
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  padding-bottom: 150px;
 }
 .main-landing-navigation aside ul li a {
   font-size: 3rem;

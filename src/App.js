@@ -35,7 +35,11 @@ function App() {
     document.getElementById(`image-modal-container${id}`).style.display =
       "none";
   };
-
+  const hideSpinner = () => {
+    document.querySelector("#main-spinner").style.opacity = "0";
+    document.querySelector("#main-spinner").style.transform =
+      "translateY(300%)";
+  };
   return (
     <>
       <Navbar />
@@ -46,19 +50,19 @@ function App() {
           </Route>
 
           <Route path="/about">
-            <AboutPage />
+            <AboutPage hideSpinner={hideSpinner} />
           </Route>
           <Route path="/contact">
-            <ContactPage />
+            <ContactPage hideSpinner={hideSpinner} />
           </Route>
           <Route path="/previous-works">
-            <WorksPage />
+            <WorksPage hideSpinner={hideSpinner} />
           </Route>
           <Route path="/plans/ecommerce">
-            <EcomPricingPage />
+            <EcomPricingPage hideSpinner={hideSpinner} />
           </Route>
           <Route path="/plans/basic">
-            <BasicPricingPage />
+            <BasicPricingPage hideSpinner={hideSpinner} />
           </Route>
           <Route path="/projects/fastway">
             <ProjectScreenFW

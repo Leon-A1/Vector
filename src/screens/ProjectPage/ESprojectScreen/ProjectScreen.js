@@ -6,6 +6,11 @@ import elec4 from "./images/elec4.png";
 import elec1 from "./images/elec1.png";
 
 const ProjectScreen = ({ showImageModal, closeImageModal }) => {
+  const hideSpinner = () => {
+    document.querySelector("#main-spinner").style.opacity = "0";
+    document.querySelector("#main-spinner").style.transform =
+      "translateY(300%)";
+  };
   return (
     <div className="project-screen-container">
       <div className="project-screen-card-container">
@@ -64,6 +69,7 @@ const ProjectScreen = ({ showImageModal, closeImageModal }) => {
                 className="far fa-times-circle"
                 id="close-modal-button"
                 onClick={() => closeImageModal()}
+                onLoad={hideSpinner()}
               ></i>
             </div>
             <img src={elec1} onClick={() => showImageModal()} alt="elec"></img>

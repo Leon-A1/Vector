@@ -6,6 +6,11 @@ import nadlan3 from "./images/nadlan3.png";
 import nadlan4 from "./images/nadlan4.png";
 
 const ProjectScreen = ({ showImageModal, closeImageModal }) => {
+  const hideSpinner = () => {
+    document.querySelector("#main-spinner").style.opacity = "0";
+    document.querySelector("#main-spinner").style.transform =
+      "translateY(300%)";
+  };
   return (
     <div className="project-screen-container">
       <div className="project-screen-card-container">
@@ -65,6 +70,7 @@ const ProjectScreen = ({ showImageModal, closeImageModal }) => {
                 className="far fa-times-circle"
                 id="close-modal-button"
                 onClick={() => closeImageModal("1")}
+                onLoad={hideSpinner()}
               ></i>
             </div>
             <img
