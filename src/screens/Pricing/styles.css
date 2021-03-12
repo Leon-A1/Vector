@@ -167,7 +167,7 @@
 .three-options-web-dev-image div header .price h2 {
   width: 100%;
   font-size: 3rem;
-  font-family: "Gill Sans", sans-serif;
+  font-family: var(--main-font-family);
   color: var(--color-black);
 }
 
@@ -175,7 +175,7 @@
   color: var(--color-white);
   font-size: 1rem;
   padding: 0 30px;
-  font-family: "Gill Sans", sans-serif;
+  font-family: var(--main-font-family);
 }
 .three-options-web-dev-image button {
   cursor: pointer;

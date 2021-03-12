@@ -23,21 +23,21 @@
   filter: drop-shadow(1px 1px 5px black);
   font-size: 1.25rem;
   z-index: 1000;
-  font-family: "Gill Sans", sans-serif;
+  font-family: var(--main-font-family);
   opacity: 0.3;
 }
 .text-animation-container span .company-name {
   font-weight: 500;
   font-size: 5rem;
   color: var(--color-main);
-  font-family: "Gill Sans", sans-serif;
+  font-family: var(--main-font-family);
 }
 
 /* Cursor */
 .txt-type > .txt {
   border-right: 2px solid black;
   color: var(--color-main);
-  font-family: "Gill Sans", sans-serif;
+  font-family: var(--main-font-family);
 }
 
 @media (min-width: 600px) {

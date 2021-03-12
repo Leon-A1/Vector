@@ -22,7 +22,7 @@
   width: 100%;
   color: var(--color-white);
   margin-bottom: 20px;
-  font-family: "Gill Sans", sans-serif;
+  font-family: var(--main-font-family);
   padding: 10px;
 }
 .contact-form-main-container input::placeholder {
@@ -33,7 +33,7 @@
   text-align: center;
   color: var(--color-secondary);
   font-size: 1.25rem;
-  font-family: "Gill Sans", sans-serif;
+  font-family: var(--main-font-family);
 }
 
 .contact-form-main-container button {

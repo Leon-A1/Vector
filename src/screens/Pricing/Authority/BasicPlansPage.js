@@ -47,7 +47,7 @@ export default function WebDevOptions({ hideSpinner }) {
             <div className="included-services">
               <p>step-by-step consultation and support process</p>
               <p>custom design per client requirements</p>
-              <p>home and inner page template sketch-3 adjustment rounds</p>
+              <p>home and inner page template sketch-3 revisions</p>
               <p>home page header image</p>
               <p>inner template header image</p>
               <p>
@@ -88,7 +88,7 @@ export default function WebDevOptions({ hideSpinner }) {
                 step-by-step consultation and support process
               </p>
               <p>multiple design selections</p>
-              <p>inner page template sketch-1 adjustment rounds</p>
+              <p>inner page template sketch-1 revisions</p>
               <p>home page header image</p>
               <p>inner template header image</p>
               <p>
@@ -133,7 +133,7 @@ export default function WebDevOptions({ hideSpinner }) {
               </p>
               <p>multiple design selections</p>
               <p style={{ color: "gray", textDecoration: "line-through" }}>
-                inner page template sketch-1 adjustment rounds
+                inner page template sketch-1 revisions
               </p>
               <p>home page header image</p>
               <p>inner template header image</p>

@@ -1,11 +1,11 @@
 .project-section-bg-img {
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 100%;
   display: none;
   opacity: 0.9;
   z-index: -1;
-  transform: translate(-35vw, -5vh);
+  transform: translate(-30vw, -15vh);
   filter: drop-shadow(1px 1px 10px black);
 }
 

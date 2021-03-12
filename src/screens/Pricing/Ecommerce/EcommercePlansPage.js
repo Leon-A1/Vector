@@ -47,7 +47,7 @@ export default function WebDevOptions({ hideSpinner }) {
                 <p>project management and walkthrough</p>
               </strong>
               <p>custom design per client requirements</p>
-              <p>home and inner page template sketch - 8 adjustment rounds</p>
+              <p>home and inner page template sketch - 8 revisions</p>
               <p>home page header image</p>
               <p>inner template header image</p>
               <p>
@@ -99,7 +99,7 @@ export default function WebDevOptions({ hideSpinner }) {
               <p style={{ color: "gray", textDecoration: "line-through" }}>
                 custom design per client requirements
               </p>
-              <p>home and inner page template sketch - 2 adjustment rounds</p>
+              <p>home and inner page template sketch - 2 revisions</p>
               <p>home page header image</p>
               <p>inner template header image</p>
               <p>
