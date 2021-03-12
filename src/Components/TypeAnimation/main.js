@@ -73,9 +73,7 @@ const AnimationHeader = () => {
       <span>
         <span className="company-name">VECTOR</span>
       </span>
-      <div data-aos="fade-right">
-        <h3>Single Direction from A to Z </h3>
-      </div>
+      <div data-aos="fade-right">{/* <h3>Direction to goals </h3> */}</div>
 
       <h1 className="title">
         <span

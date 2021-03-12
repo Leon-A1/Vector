@@ -49,24 +49,7 @@
   opacity: 0.9;
   overflow-x: hidden;
 }
-.page-header h4 {
-  width: 100%;
-  text-align: end;
-  margin: 20px;
-  font-size: 2rem;
-  z-index: 1;
-  color: var(--color-main);
-  filter: drop-shadow(1px 1px 1px black);
-}
 
-.page-content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  color: var(--color-black);
-  padding: 20px;
-  justify-content: center;
-}
 .page-content-header {
   width: 100%;
   margin-top: 20px;
@@ -79,10 +62,9 @@
   max-width: 1200px;
   display: block;
   margin: auto;
-  color: var(--color-secondary);
+  color: var(--color-main);
   width: 100%;
   text-align: center;
-  filter: drop-shadow(1px 1px 10px black);
   font-size: 1.25rem;
 }
 
@@ -97,14 +79,14 @@
   margin: 20px 0;
 }
 .two-options-buttons-links .btn-basic {
-  background-color: #222;
+  background-color: var(--color-white);
   color: var(--color-black);
+  transition: 600ms;
 }
 .two-options-buttons-links .btn-basic:hover {
   background-color: var(--color-secondary);
-  color: #222;
-  font-weight: 800;
-  transition: 600ms;
+  color: var(--color-white);
+  transition: 300ms;
 }
 .two-options-buttons-links .btn-ecom {
   color: var(--color-black);
@@ -112,10 +94,9 @@
   transition: 600ms;
 }
 .two-options-buttons-links .btn-ecom:hover {
-  color: white;
-  font-weight: 900;
+  color: var(--color-black);
   background-color: var(--color-secondary);
-  transition: 600ms;
+  transition: 300ms;
 }
 .two-options-buttons-links button a {
   text-decoration: none;
@@ -157,16 +138,15 @@
   justify-content: space-between;
   align-items: center;
   height: 300px;
-  filter: drop-shadow(1px 1px 5px black);
 }
-.three-options-web-dev-image div header div {
+.three-options-web-dev-image > div > header > div {
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .three-options-web-dev-image div header .price h2 {
   width: 100%;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: var(--main-font-family);
   color: var(--color-black);
 }
@@ -204,7 +184,7 @@
   border: solid black 1px;
 }
 .red header {
-  background-color: #222;
+  background-color: var(--color-white);
 
   color: white;
 }
@@ -212,7 +192,7 @@
   filter: drop-shadow(1px 1px 2px black);
 }
 .red button {
-  background-color: #222;
+  background-color: var(--color-white);
   color: white;
 }
 
@@ -220,9 +200,7 @@
   background-color: #802767;
   color: white;
 }
-.purple header h3 {
-  filter: drop-shadow(1px 1px 2px black);
-}
+
 .purple button {
   background-color: #802767;
   color: white;
@@ -231,21 +209,15 @@
   background-color: #49c19e;
   color: white;
 }
-.green header h3 {
-  filter: drop-shadow(1px 1px 2px black);
-}
+
 .green button {
   background-color: #49c19e;
   color: white;
 }
 .price {
-  display: flex;
-  align-items: center;
   filter: drop-shadow(1px 1px 2px black);
 }
-.price h2 {
-  margin: 10px;
-}
+
 .included-services {
   text-align: center;
   position: relative;
@@ -294,22 +266,6 @@
   height: 60px;
   left: 0;
   right: 0;
-}
-#landing-page-menu-button {
-  font-size: 300%;
-  text-align: center;
-  cursor: pointer;
-  z-index: 600;
-  filter: drop-shadow(3px 3px 2px black);
-  height: 60px;
-  transition: 600ms ease;
-  color: rgba(237, 231, 227, 0.8);
-  background-color: transparent;
-  border: none;
-  outline: none;
-  position: fixed;
-  right: 10px;
-  top: 10px;
 }
 
 @media (min-width: 600px) {
@@ -373,5 +329,8 @@
   }
   .two-options-buttons-links button {
     font-size: 1.5rem;
+  }
+  .three-options-web-dev-image div header .price h2 {
+    font-size: 2.5rem;
   }
 }
