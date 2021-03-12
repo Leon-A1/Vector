@@ -19,10 +19,10 @@ export default function WebDevOptions({ hideSpinner }) {
           <h3>Ecommerce Pricing Options</h3>
         </div>
         <div className="two-options-buttons-links">
-          <button style={{ backgroundColor: "#e2443f" }}>
+          <button className="btn-basic">
             <Link to="/plans/basic">Basic</Link>{" "}
           </button>
-          <button style={{ backgroundColor: "#999999" }}>Ecommerce </button>
+          <button className="btn-ecom">Ecommerce </button>
         </div>
         <div className="three-options-web-dev-image">
           <div className="purple">

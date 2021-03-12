@@ -20,8 +20,8 @@ export default function WebDevOptions({ hideSpinner }) {
           <h3>Pricing Options</h3>
         </div>
         <div className="two-options-buttons-links">
-          <button style={{ backgroundColor: "#e2443f" }}>Basic</button>
-          <button style={{ backgroundColor: "#999999" }}>
+          <button className="btn-basic">Basic</button>
+          <button className="btn-ecom">
             <Link to="/plans/ecommerce">Ecommerce</Link>{" "}
           </button>
         </div>
@@ -30,7 +30,7 @@ export default function WebDevOptions({ hideSpinner }) {
             <header>
               <div>
                 <p className="pre-plan">Custom web application</p>
-                <h3>Vector React GOLD</h3>
+                <h3>Vector React PLATINUM</h3>
 
                 <hr></hr>
               </div>

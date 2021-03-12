@@ -96,13 +96,31 @@
   color: var(--color-black);
   margin: 20px 0;
 }
+.two-options-buttons-links .btn-basic {
+  background-color: #222;
+  color: var(--color-black);
+}
+.two-options-buttons-links .btn-basic:hover {
+  background-color: var(--color-secondary);
+  color: #222;
+  font-weight: 800;
+  transition: 600ms;
+}
+.two-options-buttons-links .btn-ecom {
+  color: var(--color-black);
+  background-color: #999;
+  transition: 600ms;
+}
+.two-options-buttons-links .btn-ecom:hover {
+  color: white;
+  font-weight: 900;
+  background-color: var(--color-secondary);
+  transition: 600ms;
+}
 .two-options-buttons-links button a {
   text-decoration: none;
   color: inherit;
   transition: 300ms;
-}
-.two-options-buttons-links button a:hover {
-  color: var(--color-secondary);
   transition: 600ms;
 }
 
@@ -186,7 +204,7 @@
   border: solid black 1px;
 }
 .red header {
-  background-color: #e24540;
+  background-color: #222;
 
   color: white;
 }
