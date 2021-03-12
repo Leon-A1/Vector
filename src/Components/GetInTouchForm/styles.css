@@ -41,18 +41,20 @@
   display: block;
   margin: auto;
   width: 200px;
-  color: var(--color-main);
+  color: var(--color-secondary);
   background-color: var(--color-black);
-  border: solid 1px var(--color-main);
+  border: solid 1px var(--color-secondary);
   transition: 600ms;
   cursor: pointer;
   font-weight: 700;
   padding: 5px;
   margin-top: 10px;
+  font-size: 1.25rem;
+  filter: drop-shadow(1px 1px 1px black);
 }
 .contact-form-main-container button:hover {
   color: var(--color-black);
-  background-color: var(--color-main);
+  background-color: var(--color-secondary);
   border: solid 1px var(--color-black);
   transition: 600ms;
 }

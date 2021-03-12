@@ -1,18 +1,21 @@
 .react-reasons-section {
   color: var(--color-white);
-  background-color: var(--color-main);
+  background-color: var(--color-secondary);
   padding: 5rem 20px;
   transition: 10000ms;
 }
 .react-reasons-section div h3 {
   margin-top: 20px;
-  color: var(--color-secondary);
+  color: var(--color-black);
   font-size: 1.75rem;
+  font-weight: 1200;
+  filter: drop-shadow(1px 1px 3px black);
 }
 .react-reasons-section p {
   color: var(--color-black);
   font-family: var(--main-font-family);
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 @media (min-width: 600px) {

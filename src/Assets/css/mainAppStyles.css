@@ -2,13 +2,13 @@
 :root {
   --color-black: rgb(241, 241, 241);
   /* --color-white: #1e152a; */
-  --color-white: #222;
-  --color-main: #536dfe;
-  --color-secondary: #78e0dc;
-  --color-light-dark: rgb(122, 122, 122);
-  --color-dark: #66635b;
-  /* --color-text-color: #ffe2d1; */
-  --color-text-color: rgb(245, 245, 245);
+  --color-white: #0b0c10;
+  --color-main: #66fcf1;
+  --color-secondary: #45a29e;
+  --color-light-dark: #c5c6c7;
+  --color-dark: #1f2833;
+  /* --color-text-color: rgb(245, 245, 245); */
+  --color-text-color: #c5c6c7;
   --main-font-family: Verdana, sans-serif;
   --secondary-font-family: Verdana, sans-serif;
 }
