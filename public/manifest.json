@@ -1,14 +1,14 @@
 {
-  "short_name": "LA Web Development",
-  "name": "Leon Aviev Web Development Portfolio",
+  "short_name": "Vector Development",
+  "name": "Design & Software",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "logo.svg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "favicon.ico",
+      "src": "logo.svg",
       "type": "image/png",
       "sizes": "192x192"
     }
@@ -16,5 +16,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "white",
-  "background_color": "#333"
+  "background_color": "#222"
 }
