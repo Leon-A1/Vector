@@ -57,7 +57,7 @@
   padding: 30px;
 }
 .project-screen-card-container .project-screen-content-col h1 {
-  color: var(--color-main);
+  color: var(--color-secondary);
   text-align: center;
   width: 100%;
 }
@@ -142,7 +142,7 @@
   max-width: 800px;
 }
 .project-screen-card-container .project-screen-images-col h1 {
-  color: var(--color-main);
+  color: var(--color-secondary);
   margin: 1rem;
 }
 .project-screen-images-grid {

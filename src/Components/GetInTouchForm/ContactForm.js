@@ -61,8 +61,8 @@ export default function ContactForm() {
     <>
       <div className="contact-form-main-container" data-aos="fade-up">
         <h4 className="service-provide-span">
-          Would you like us to contact you? <br></br> leave some info, we will
-          get back to you as soon as possible
+          Would you like us to contact you? <br></br> leave us some details, we
+          will get back to you as soon as possible
         </h4>
         <section>
           <label>Name</label>

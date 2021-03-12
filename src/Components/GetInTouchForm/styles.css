@@ -23,6 +23,7 @@
   color: var(--color-white);
   margin-bottom: 20px;
   font-family: "Gill Sans", sans-serif;
+  padding: 10px;
 }
 .contact-form-main-container input::placeholder {
   opacity: 0.1;

@@ -21,7 +21,7 @@ export default function FavoriteProjects() {
       ></img>
 
       <section className="cards">
-        <h1 className="projects-heading">PROJECTS</h1>
+        {/* <h1 className="projects-heading">PROJECTS</h1> */}
         <div className="card">
           <div className="card-content">
             <img

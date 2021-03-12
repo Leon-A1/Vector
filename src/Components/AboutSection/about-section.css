@@ -30,8 +30,7 @@
   padding: 30px;
   transition: 600ms;
   z-index: -1;
-  filter: drop-shadow(1px 1px 10px black);
-  background-color: transparent;
+  filter: drop-shadow(1px 1px 15px black);
 }
 
 @media (min-width: 600px) {
@@ -44,10 +43,10 @@
 }
 @media (min-width: 1600px) {
   .about-section-img {
-    max-width: 800px;
+    max-width: 900px;
     margin-top: 0;
   }
   .landing-page-main-div {
-    margin-top: 30px;
+    margin-top: 5vh;
   }
 }
