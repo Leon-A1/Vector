@@ -4,6 +4,9 @@
   padding: 5rem 20px;
   transition: 10000ms;
 }
+.react-reasons-section div {
+  z-index: 1;
+}
 .react-reasons-section div h3 {
   margin-top: 20px;
   color: var(--color-black);
