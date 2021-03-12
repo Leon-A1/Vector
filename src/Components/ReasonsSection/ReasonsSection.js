@@ -13,7 +13,7 @@ const ReasonsSection = () => {
       <div className="reasons-section-flex-box">
         <div>
           <h3>React web app development</h3>
-          <p>
+          <p data-aos="fade-right">
             With several years of experience as a React development agency, we
             can say that React is the best way to develop big and fast web apps
             with JavaScript. React allows for creating interactive UIs, smoothly
@@ -25,7 +25,7 @@ const ReasonsSection = () => {
         </div>
         <div>
           <h3>SPA development</h3>
-          <p>
+          <p data-aos="fade-left">
             We develop single-page applications (SPAs) using React for several
             reasons. First, React guarantees flawless performance due to its
             virtual representation of the DOM: when a user interacts with an
@@ -36,7 +36,7 @@ const ReasonsSection = () => {
         </div>
         <div>
           <h3>Migration to React</h3>
-          <p>
+          <p data-aos="fade-right">
             To meet your business needs, we ensure smooth migration from any
             JavaScript platform to React. Unlike other frameworks, React
             combines flexibility, the capability to pass rich data through an

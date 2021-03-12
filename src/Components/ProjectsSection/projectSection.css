@@ -55,7 +55,7 @@
   padding: 20px;
 }
 .cards > div {
-  filter: drop-shadow(1px 1px 15px black);
+  filter: drop-shadow(1px 1px 5px black);
   opacity: 0.9;
 }
 

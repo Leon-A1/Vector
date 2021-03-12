@@ -30,7 +30,7 @@
   padding: 30px;
   transition: 600ms;
   z-index: -1;
-  filter: drop-shadow(1px 1px 15px black);
+  filter: drop-shadow(1px 1px 15px rgba(245, 245, 245, 0.1));
 }
 
 @media (min-width: 600px) {

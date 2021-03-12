@@ -169,11 +169,9 @@ export default function WebDevOptions({ hideSpinner }) {
             ></i>
           </h2>
         </div>
-        <h6 style={{ marginTop: 20, color: "var(--color-main)" }}>
-          * tax not included.
-        </h6>
-        <h6 style={{ color: "red", marginBottom: 20 }}>
-          * additional maintanance fees might apply.
+        <h6 style={{ marginTop: 20, color: "#222" }}>* tax not included.</h6>
+        <h6 style={{ color: "#999", marginBottom: 20 }}>
+          * additional maintanance fees may apply.
         </h6>
       </div>
     </div>

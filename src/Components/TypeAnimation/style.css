@@ -12,7 +12,7 @@
   font-family: var(--main-font-family);
   color: var(--color-main);
   filter: drop-shadow(1px 1px 1px black);
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 .text-animation-container div {
   /* transition: 2000ms; */
@@ -28,16 +28,16 @@
 }
 .text-animation-container span .company-name {
   font-weight: 500;
-  font-size: 4rem;
+  font-size: 5rem;
   color: var(--color-main);
-  filter: drop-shadow(1px 1px 3px black);
+  font-family: "Gill Sans", sans-serif;
 }
 
 /* Cursor */
 .txt-type > .txt {
   border-right: 2px solid black;
   color: var(--color-main);
-  font-family: var(--secondary-font-family);
+  font-family: "Gill Sans", sans-serif;
 }
 
 @media (min-width: 600px) {
@@ -78,7 +78,7 @@
     font-size: 8rem;
   }
   .text-animation-container .title {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
   }
   .text-animation-container h3 {
     font-size: 3rem;

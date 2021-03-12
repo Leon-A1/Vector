@@ -74,14 +74,14 @@ const AnimationHeader = () => {
         <span className="company-name">VECTOR</span>
       </span>
       <div data-aos="fade-right">
-        <h3>The Only Direction</h3>
+        <h3>Single Direction from A to Z </h3>
       </div>
 
       <h1 className="title">
         <span
           className="txt-type"
           data-wait="3000"
-          data-words='["web applications", "software solutions","app optimization"]'
+          data-words='["web development", "software solutions","program optimization"]'
         ></span>
       </h1>
     </div>

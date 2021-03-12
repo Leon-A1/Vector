@@ -2,6 +2,7 @@
   color: var(--color-white);
   background-color: var(--color-main);
   padding: 5rem 20px;
+  transition: 10000ms;
 }
 .react-reasons-section div h3 {
   margin-top: 20px;
