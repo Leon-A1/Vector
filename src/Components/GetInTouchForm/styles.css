@@ -36,7 +36,7 @@
   font-family: var(--main-font-family);
 }
 
-.contact-form-main-container button {
+/* .contact-form-main-container button {
   padding: 0px;
   display: block;
   margin: auto;
@@ -51,13 +51,32 @@
   margin-top: 10px;
   font-size: 1.25rem;
   filter: drop-shadow(1px 1px 1px black);
+} */
+
+.contact-form-main-container button {
+  width: 100%;
+  font-weight: 900;
+  color: var(--color-main);
+  border: solid 1px var(--color-main);
+  background-color: transparent;
+  transition: 600ms;
+  cursor: pointer;
+  padding: 1rem;
+  margin: auto;
+  width: 200px;
 }
 .contact-form-main-container button:hover {
+  color: var(--color-black);
+  border: solid 1px var(--color-black);
+  background-color: var(--color-main);
+  transition: 600ms;
+}
+/* .contact-form-main-container button:hover {
   color: var(--color-black);
   background-color: var(--color-secondary);
   border: solid 1px var(--color-black);
   transition: 600ms;
-}
+} */
 .contact-form-main-container section #form-response-message {
   padding: 10px;
   width: 100%;

@@ -25,14 +25,26 @@ const Contact = ({ hideSpinner }) => {
         </p>
         <form>
           <h1>Get In Touch</h1>
-          <span>Name</span>
-          <input type="text"></input>
-          <span>Email</span>
-          <input type="email"></input>
-
-          <span>Comment/Request/Question</span>
           <br></br>
-          <textarea rows="10"></textarea>
+          <br></br>
+          <div className="input-field">
+            <input type="text" id="name" required />
+            <label htmlFor="name">Your name:</label>
+          </div>
+          <div className="input-field">
+            <input type="text" id="email" required />
+            <label htmlFor="email">Your email:</label>
+          </div>
+          <br></br>
+          <br></br>
+          <div className="input-field">
+            <textarea type="text" rows="4" id="msg" required />
+            <label htmlFor="msg">Your msg:</label>
+          </div>
+          <br></br>
+          <br></br> <br></br>
+          <br></br>
+          <br></br>
           <button>Send</button>
         </form>
       </section>

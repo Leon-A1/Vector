@@ -12,7 +12,7 @@
   outline: none;
   border: none;
   cursor: pointer;
-  filter: drop-shadow(1px 1px 5px black);
+  filter: drop-shadow(1px 1px 2px black);
   transition: 1500ms;
 }
 .open-side-nav-button:hover {
@@ -30,7 +30,7 @@
   outline: none;
   border: none;
   cursor: pointer;
-  filter: drop-shadow(1px 1px 5px black);
+  filter: drop-shadow(1px 1px 2px black);
   transition: 1500ms;
 }
 .close-side-nav-button:hover {
@@ -44,7 +44,6 @@
   height: 100vh;
   width: 100%;
   transition: 1000ms;
-  /* display: none; */
   height: 0;
 }
 .main-landing-navigation aside ul {

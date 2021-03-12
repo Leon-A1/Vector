@@ -39,23 +39,17 @@
   padding: 20px;
 }
 
-.additional-page-container section form input {
-  padding: 1rem;
-  width: 100%;
-  margin-bottom: 20px;
-  color: black;
-}
 .additional-page-container section form textarea {
   width: 100%;
   color: black;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 .additional-page-container section form button {
   width: 100%;
   font-weight: 900;
   color: var(--color-main);
   border: solid 1px var(--color-main);
-  background-color: var(--color-black);
+  background-color: transparent;
   transition: 600ms;
   cursor: pointer;
   padding: 1rem;
@@ -98,15 +92,6 @@
   .additional-page-container section p {
     font-size: 2rem;
   }
-  .additional-page-container section form input {
-    /* padding: 1rem; */
-  }
-  .additional-page-container section form textarea {
-    /* padding: 1rem; */
-  }
-  .additional-page-container section form button {
-    /* padding: 1rem; */
-  }
 }
 @media (min-width: 1200px) {
   .additional-page-container header {
@@ -147,7 +132,7 @@
     font-size: 2rem;
   }
   .additional-page-container section form input {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
   }
   .additional-page-container section form textarea {
     font-size: 1.5rem;
@@ -155,4 +140,73 @@
   .additional-page-container section form button {
     font-size: 1.5rem;
   }
+}
+
+/* ##### COOL INPUT ANIMATIONS #### */
+form {
+  /* margin: 100px; */
+}
+.input-field {
+  position: relative;
+  /* width: 250px; */
+  height: 44px;
+  line-height: 44px;
+  margin-bottom: 30px;
+}
+.input-field input {
+  width: 100%;
+  background-color: transparent;
+}
+.input-field > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #d3d3d3;
+  transition: 0.2s all;
+  cursor: text;
+  font-size: 1rem;
+}
+.input-field > input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid #d3d3d3;
+  box-shadow: none;
+  color: var(--color-black);
+  font-size: 1rem;
+}
+.input-field input:invalid {
+  outline: 0;
+  /* // color: #ff2300; */
+  /* //   border-color: #ff2300; */
+}
+.input-field input:focus,
+.input-field input:valid {
+  border-color: var(--color-main);
+}
+.input-field input:focus ~ label,
+.input-field input:valid ~ label {
+  font-size: 1.25rem;
+  top: -2rem;
+  color: var(--color-main);
+}
+
+.input-field textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px var(--color-black);
+}
+.input-field textarea:focus,
+.input-field textarea:valid {
+  border: solid 1px;
+  border-color: var(--color-main);
+  color: var(--color-black);
+}
+.input-field textarea:focus ~ label,
+.input-field textarea:valid ~ label {
+  font-size: 1.25rem;
+  top: -2.5rem;
+  color: var(--color-main);
 }
