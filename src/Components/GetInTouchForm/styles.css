@@ -63,7 +63,6 @@
   cursor: pointer;
   padding: 1rem;
   margin: auto;
-  width: 200px;
 }
 .contact-form-main-container button:hover {
   color: var(--color-black);
@@ -102,6 +101,6 @@
     display: inline-block;
     margin-left: 10px;
     padding: 5px;
-    max-width: 90px;
+    width: 90px;
   }
 }
